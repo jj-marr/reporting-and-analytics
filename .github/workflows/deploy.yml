@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  🚀_REGISTRY: ghcr.io
-  🎀_IMAGE_NAME: ${{ github.repository }}
+  _REGISTRY: ghcr.io
+  _IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-push:
