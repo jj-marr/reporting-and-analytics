@@ -1,6 +1,8 @@
 name: 🌸 Kawaii Deploy Pipeline uwu
 
 on:
+  push:
+    branches: [ "master" ]
   workflow_dispatch:
 
 env:
