@@ -1,10 +1,7 @@
 name: 🌸 Kawaii Deploy Pipeline uwu
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_dispatch:
 
 env:
   🚀_REGISTRY: ghcr.io
