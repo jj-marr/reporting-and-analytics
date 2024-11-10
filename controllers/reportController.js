@@ -1,6 +1,6 @@
 const Report = require('../models/Report');
 
-const 🎀_uwu_getReports = async (req, res) => {
+const _uwu_getReports = async (req, res) => {
     try {
         const { startDate, endDate, customerId } = req.query;
         let owo_query = {};
@@ -38,7 +38,7 @@ const 🎀_uwu_getReports = async (req, res) => {
     }
 };
 
-const 🌸_uwu_getReportById = async (req, res) => {
+const _uwu_getReportById = async (req, res) => {
     try {
         const { reportId } = req.params;
         const uwu_report = await Report.findOne({ reportId });
@@ -64,6 +64,6 @@ const 🌸_uwu_getReportById = async (req, res) => {
 };
 
 module.exports = {
-    🎀_uwu_getReports,
-    🌸_uwu_getReportById
+    _uwu_getReports,
+    _uwu_getReportById
 };
