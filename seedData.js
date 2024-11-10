@@ -4,7 +4,15 @@ require('dotenv').config();
 
 const _uwu_connect = async () => {
     try {
-        await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/kawaii_reports');
+        const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/kawaii_reports';
+
+        console.log('OwO trying to connect to:', mongoURI);
+
+        await mongoose.connect(mongoURI, {
+            useNewUrlParser: true,
+            useUnifiedTopology: true,
+        });
+
         console.log('Connected to MongoDB like Naruto to Kurama! ⭐');
     } catch (error) {
         console.error('Connection failed senpai! (╥﹏╥)', error);
