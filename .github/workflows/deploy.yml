@@ -23,7 +23,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ${{ env._REGISTRY }}
-          username: ${{ jjmarr }}
+          username: jjmarr
           password: ${{ secrets.CR_PAT }}
 
       - name: 🏷️ Extract metadata
