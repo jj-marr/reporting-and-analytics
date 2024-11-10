@@ -56,7 +56,7 @@ jobs:
       - name: 🌈 Deploy to server
         run: |
           ssh ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_HOST }} "\
-            docker pull ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:main && \
+            docker pull ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:master && \
             docker stop kawaii-report-service || true && \
             docker rm kawaii-report-service || true && \
             docker run -d \
@@ -66,4 +66,4 @@ jobs:
               --network mongodb-network \
               -e MONGODB_URI='mongodb://mongodb:27017/kawaii_reports' \
               -e PORT=3000 \
-              ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:main"
+              ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:master"
