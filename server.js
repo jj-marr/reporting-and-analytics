@@ -9,14 +9,13 @@ const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB before starting server-chan!
 _connectDB().then(() => {
-    // Middleware
+    // Middleware-chan! ✨
     app.use(cors());
     app.use(morgan('dev'));
     app.use(express.json());
 
-    // Routes
-    const reportRoutes = require('./routes/reportRoutes');
-    app.use('/api/reports', reportRoutes);
+    // Routes owo
+    app.use('/api/analytics', require('./routes/analytics'));
 
     // Error handler
     app.use((err, req, res, next) => {
