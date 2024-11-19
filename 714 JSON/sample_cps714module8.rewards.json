@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "672fab334789cf17e277a4d9"
+  },
+  "reward_name": "10% Discount Voucher",
+  "reward_description": "A voucher for 10% off the next purchase",
+  "points_required": {
+    "$numberLong": "500"
+  },
+  "redeem_count": {
+    "$numberLong": "250"
+  }
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605ba"
+  },
+  "reward_name": "Monthly Performance Report",
+  "reward_description": "Get a customized report on your business performance using AlphaBiz tools.",
+  "points_required": 350,
+  "redeem_count": 20
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b4"
+  },
+  "reward_name": "Free Business Consultation",
+  "reward_description": "A one-on-one consultation with a business development expert.",
+  "points_required": 1200,
+  "redeem_count": 8
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b3"
+  },
+  "reward_name": "Free Training Session",
+  "reward_description": "One-hour personalized training on AlphaBiz software features.",
+  "points_required": 500,
+  "redeem_count": 15
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b2"
+  },
+  "reward_name": "5% Off Software Subscription",
+  "reward_description": "Receive a 5% discount on your next software subscription renewal.",
+  "points_required": 250,
+  "redeem_count": 40
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c1"
+  },
+  "reward_name": "5% Discount on Annual Subscription",
+  "reward_description": "5% off your next annual subscription for any AlphaBiz product.",
+  "points_required": 300,
+  "redeem_count": 43
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c4"
+  },
+  "reward_name": "$100 Off Custom Software Development",
+  "reward_description": "Apply $100 off a custom software solution developed by AlphaBiz.",
+  "points_required": 1200,
+  "redeem_count": 5
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c5"
+  },
+  "reward_name": "1-Month Access to Premium Analytics",
+  "reward_description": "Access AlphaBiz’s Premium Analytics for advanced insights for one month.",
+  "points_required": 650,
+  "redeem_count": 28
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605bc"
+  },
+  "reward_name": "Productivity eBook",
+  "reward_description": "Download an exclusive eBook on boosting productivity for SMEs.",
+  "points_required": 150,
+  "redeem_count": 50
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605bd"
+  },
+  "reward_name": "Discount on Payroll Module",
+  "reward_description": "Receive a 20% discount on the AlphaBiz Payroll module.",
+  "points_required": 550,
+  "redeem_count": 17
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605be"
+  },
+  "reward_name": "Invite to Networking Event",
+  "reward_description": "Exclusive access to a networking event with industry leaders.",
+  "points_required": 800,
+  "redeem_count": 9
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c0"
+  },
+  "reward_name": "Beta Access to New Product",
+  "reward_description": "Get early access to test and provide feedback on AlphaBiz’s next product.",
+  "points_required": 500,
+  "redeem_count": 22
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c3"
+  },
+  "reward_name": "Downloadable Business Growth Plan",
+  "reward_description": "Receive a detailed plan for scalable growth for your business.",
+  "points_required": 250,
+  "redeem_count": 47
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b5"
+  },
+  "reward_name": "$50 Credit on Next Purchase",
+  "reward_description": "Apply $50 credit towards your next AlphaBiz purchase.",
+  "points_required": 600,
+  "redeem_count": 25
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b6"
+  },
+  "reward_name": "Early Access to New Features",
+  "reward_description": "Be among the first to try AlphaBiz’s upcoming software features.",
+  "points_required": 300,
+  "redeem_count": 45
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605bb"
+  },
+  "reward_name": "Priority Customer Support",
+  "reward_description": "Enjoy a month of priority support for your AlphaBiz products.",
+  "points_required": 450,
+  "redeem_count": 30
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605c2"
+  },
+  "reward_name": "Free Security Audit",
+  "reward_description": "One-time security audit of your AlphaBiz account settings and data.",
+  "points_required": 1000,
+  "redeem_count": 6
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b7"
+  },
+  "reward_name": "10% Discount on Advanced Analytics",
+  "reward_description": "Get a 10% discount on AlphaBiz’s Advanced Analytics module.",
+  "points_required": 700,
+  "redeem_count": 12
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b8"
+  },
+  "reward_name": "Free Additional User License",
+  "reward_description": "Add one extra user license to your current subscription at no charge.",
+  "points_required": 900,
+  "redeem_count": 10
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605b9"
+  },
+  "reward_name": "Exclusive Webinar Access",
+  "reward_description": "Gain access to a premium business development webinar.",
+  "points_required": 400,
+  "redeem_count": 38
+},
+{
+  "_id": {
+    "$oid": "6735694eceeff5d72f1605bf"
+  },
+  "reward_name": "Free Marketing Toolkit",
+  "reward_description": "Downloadable toolkit with templates for email and social media marketing.",
+  "points_required": 200,
+  "redeem_count": 55
+}]

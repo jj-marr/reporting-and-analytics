@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "672fad4e4789cf17e277a4dc"
+  },
+  "metric_Date": {
+    "$date": "2024-10-20T00:00:00.000Z"
+  },
+  "new_users": {
+    "$numberLong": "50"
+  },
+  "active_users": {
+    "$numberLong": "1200"
+  },
+  "rewards_redeemed": {
+    "$numberLong": "300"
+  },
+  "points_distributed": {
+    "$numberLong": "12000"
+  }
+}]

@@ -1,0 +1,214 @@
+[{
+  "_id": {
+    "$oid": "672fab904789cf17e277a4da"
+  },
+  "user_id": "user_12345",
+  "activity_type": "points_earned",
+  "activity_date": {
+    "$date": "2024-10-19T00:00:00.000Z"
+  },
+  "points_earned": {
+    "$numberLong": "200"
+  },
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605df"
+  },
+  "user_id": "user_13579",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-16T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_002"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605dc"
+  },
+  "user_id": "user_12345",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-19T00:00:00.000+00:00",
+  "points_earned": 200,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e4"
+  },
+  "user_id": "user_99001",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-11T00:00:00.000+00:00",
+  "points_earned": 250,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e6"
+  },
+  "user_id": "user_44556",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-09T00:00:00.000+00:00",
+  "points_earned": 200,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605ec"
+  },
+  "user_id": "user_17181",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-03T00:00:00.000+00:00",
+  "points_earned": 275,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605ed"
+  },
+  "user_id": "user_19291",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-02T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_009"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605ee"
+  },
+  "user_id": "user_21301",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-01T00:00:00.000+00:00",
+  "points_earned": 300,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605dd"
+  },
+  "user_id": "user_67890",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-18T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_001"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605de"
+  },
+  "user_id": "user_24680",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-17T00:00:00.000+00:00",
+  "points_earned": 150,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e0"
+  },
+  "user_id": "user_11223",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-15T00:00:00.000+00:00",
+  "points_earned": 300,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e3"
+  },
+  "user_id": "user_77889",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-12T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_004"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e5"
+  },
+  "user_id": "user_22334",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-10T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_005"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e9"
+  },
+  "user_id": "user_10111",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-06T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_007"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605ea"
+  },
+  "user_id": "user_13141",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-05T00:00:00.000+00:00",
+  "points_earned": 220,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605ef"
+  },
+  "user_id": "user_23411",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-09-30T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_010"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e7"
+  },
+  "user_id": "user_66778",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-08T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_006"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e1"
+  },
+  "user_id": "user_33445",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-14T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_003"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e2"
+  },
+  "user_id": "user_55667",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-13T00:00:00.000+00:00",
+  "points_earned": 100,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605e8"
+  },
+  "user_id": "user_88990",
+  "activity_type": "points_earned",
+  "activity_date": "2024-10-07T00:00:00.000+00:00",
+  "points_earned": 180,
+  "reward_id": "null"
+},
+{
+  "_id": {
+    "$oid": "67356b40ceeff5d72f1605eb"
+  },
+  "user_id": "user_15161",
+  "activity_type": "reward_redeemed",
+  "activity_date": "2024-10-04T00:00:00.000+00:00",
+  "points_earned": 0,
+  "reward_id": "reward_008"
+}]
