@@ -67,6 +67,6 @@ jobs:
               --restart always \
               -p 3000:3000 \
               --network mongodb-network \
-              -e MONGODB_URI='mongodb://mongodb:27017/kawaii_reports' \
+              -e MONGODB_URI='mongodb://mongodb:27017/alphabiz' \
               -e PORT=3000 \
               ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:master"

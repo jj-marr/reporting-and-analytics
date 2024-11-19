@@ -12,7 +12,7 @@ pkgs.mkShell {
     echo "🌸 Welcome to Kawaii Report Service Development Environment! uwu 🌸"
 
     export PATH="$PWD/node_modules/.bin:$PATH"
-    export MONGODB_URI="mongodb://localhost:27017/kawaii_reports"
+    export MONGODB_URI="mongodb://localhost:27017/alpha_biz"
     export PORT=3000
   '';
 }

@@ -6,7 +6,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - MONGODB_URI=mongodb://mongodb:27017/kawaii_reports
+      - MONGODB_URI=mongodb://mongodb:27017/alphabiz
       - PORT=3000
     depends_on:
       - mongodb
