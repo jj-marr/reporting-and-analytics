@@ -9,7 +9,7 @@ const _connectDB = async () => {
         };
 
         // Make sure MongoDB is listening on the right port
-        const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/kawaii_reports';
+        const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/alphabiz';
 
         console.log('OwO trying to connect to:', mongoURI);
 

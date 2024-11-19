@@ -1,3 +1,5 @@
+const mongoose = require('mongoose');
+
 const loyaltyActivitySchema = new mongoose.Schema({
     type: { type: String, required: true },
     description: { type: String, required: true },

@@ -5,7 +5,7 @@ const LoyaltyClient = require('./models/LoyaltyClient');
 const Feedback = require('./models/Feedback');
 const Survey = require('./models/Survey');
 
-const _uwu_connection = 'mongodb://localhost:27017/alphabiz';
+const _uwu_connection = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/alphabiz';
 
 const seed_Data = async () => {
     try {
