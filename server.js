@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocs = require('./swagger');
 require('dotenv').config();
 const _connectDB = require('./config/database');
 
@@ -13,6 +15,12 @@ _connectDB().then(() => {
     app.use(cors());
     app.use(morgan('dev'));
     app.use(express.json());
+
+    // Swagger documentation route owo
+    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs, {
+        customCss: '.swagger-ui .topbar { background-color: #ff69b4; }', // Make it kawaii pink!
+        customSiteTitle: "AlphaBiz Analytics API Documentation ✨"
+    }));
 
     // Routes owo
     app.use('/api/analytics', require('./routes/analytics'));
@@ -28,6 +36,7 @@ _connectDB().then(() => {
 
     app.listen(PORT, () => {
         console.log(`(★‿★) Server-chan is running on port ${PORT} uwu!`);
+        console.log(`(★‿★) API Documentation available at http://localhost:${PORT}/api-docs`);
     });
 }).catch(error => {
     console.error('Failed to connect to MongoDB (╥﹏╥)', error);
