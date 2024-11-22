@@ -6,3 +6,5 @@ using `nix-shell shell.nix`. Then, run `node seedData.js` to fill the MongoDB wi
 run `nix-shell server.js` to start the API server.
 
 You can access the API documentation at `http://localhost:3000/api-docs/`
+
+[![🌸 Kawaii Deploy Pipeline uwu](https://github.com/jj-marr/reporting-and-analytics/actions/workflows/deploy.yml/badge.svg)](https://github.com/jj-marr/reporting-and-analytics/actions/workflows/deploy.yml)
