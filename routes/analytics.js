@@ -122,7 +122,7 @@ router.get('/popular-rewards', analyticsController.getPopularRewards);
  *         required: true
  *         schema:
  *           type: string
- *         description: Customer ID (e.g., C001)
+ *         description: Customer email
  *     responses:
  *       200:
  *         description: Successfully retrieved customer points
@@ -143,7 +143,7 @@ router.get('/points/:customerId', analyticsController.getCustomerPoints);
  *         required: true
  *         schema:
  *           type: string
- *         description: Customer ID (e.g., C001)
+ *         description: Customer email
  *     responses:
  *       200:
  *         description: Successfully retrieved customer rewards
