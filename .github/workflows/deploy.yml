@@ -69,6 +69,6 @@ jobs:
               --network mongodb-network \
               -e MONGODB_URI='mongodb://mongodb:27017/alphabiz' \
               -e USER_API='https://client-account-hub.onrender.com/get_all_users' \
-              -e GROUP2_MONGO=${{ secrets.GROUP2_MONGO }} \
+              -e GROUP2_MONGO='${{ secrets.GROUP2_MONGO }}' \
               -e PORT=3000 \
               ${{ env._REGISTRY }}/${{ env._IMAGE_NAME }}:master"
