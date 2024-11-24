@@ -22,4 +22,17 @@ const _connectDB = async () => {
     }
 };
 
+// 💖 New DB connection for demographics 💖 (It's like a secret portal! 💫)
+const newMongoURI = process.env.GROUP2_MONGO;
+const new_connectDB = async () => { // New connection function!
+    try {
+        await mongoose.connect(newMongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
+        console.log('Yay! Connected to the new MongoDB for demographics! 🎉');
+    } catch (error) {
+        console.error('Oh no! New MongoDB connection failed! 😭', error);
+        process.exit(1);
+    }
+};
+
 module.exports = _connectDB;
+module.exports = new_connectDB;

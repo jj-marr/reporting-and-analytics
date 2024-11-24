@@ -5,12 +5,14 @@ const swaggerUi = require('swagger-ui-express');
 const swaggerDocs = require('./swagger');
 require('dotenv').config();
 const _connectDB = require('./config/database');
+const new_connectDB = require('./config/database');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Connect to MongoDB before starting server-chan!
-_connectDB().then(() => {
+// Connect to both databases before starting server-chan!
+Promise.all([_connectDB(), new_connectDB()]) // Connect to both DBs like a dual-wielding hero! ⚔️
+    .then(() => {
     // Middleware-chan! ✨
     app.use(cors());
     app.use(morgan('dev'));
@@ -39,5 +41,6 @@ _connectDB().then(() => {
         console.log(`(★‿★) API Documentation available at http://localhost:${PORT}/api-docs`);
     });
 }).catch(error => {
-    console.error('Failed to connect to MongoDB (╥﹏╥)', error);
+    console.error('Failed to connect to a database (╥﹏╥)', error);
+    process.exit(1);
 });

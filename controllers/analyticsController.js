@@ -5,12 +5,34 @@ const LoyaltyClient = require('../models/LoyaltyClient');
 const Feedback = require('../models/Feedback');
 const Survey = require('../models/Survey');
 const User = require('../models/User');
+const NewUser = require('../models/NewUser')
 
 const analyticsController = {
     // Get all users data function owo
     async getAllUsers() {
         const response = await axios.get(process.env.USER_API);
         return response.data.user;
+    },
+
+    async getUserDemographics(req, res) {
+        try {
+            const users = await NewUser.find({}, 'age gender'); // Use NewUser model here! 💖
+            const demographics = { gender: {} };
+            let totalAge = 0;
+
+            // Process data like analyzing enemy intel! 🧐
+            users.forEach(user => {
+                totalAge += user.age;
+                demographics.gender[user.gender] = (demographics.gender[user.gender] || 0) + 1;
+            });
+
+            demographics.averageAge = users.length > 0 ? totalAge / users.length : 0; // Calculate average age! 🧮
+
+            res.json({ success: true, data: demographics }); // Send the data! 💌
+        } catch (error) {
+            console.error("Error fetching demographics: (╥﹏╥)", error);
+            res.status(500).json({ success: false, error: error.message });
+        }
     },
 
     // Get ticket resolution times uwu

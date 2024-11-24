@@ -152,4 +152,34 @@ router.get('/points/:customerId', analyticsController.getCustomerPoints);
  */
 router.get('/rewards/:customerId', analyticsController.getCustomerRewards);
 
+/**
+ * @swagger
+ * /api/analytics/demographics:
+ *   get:
+ *     summary: Get user demographics (average age and gender counts)
+ *     tags: [Analytics]
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved demographics
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 success:
+ *                   type: boolean
+ *                 data:
+ *                   type: object
+ *                   properties:
+ *                     averageAge:
+ *                       type: number
+ *                     gender:
+ *                       type: object
+ *                       additionalProperties:
+ *                         type: integer
+ *       500:
+ *         description: Server error
+ */
+router.get('/demographics', analyticsController.getUserDemographics);
+
 module.exports = router;
